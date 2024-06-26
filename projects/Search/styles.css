@@ -5,6 +5,9 @@
     justify-content:flex-end;
 }
 .navbar_item{
+    font-size: 13px;
+    font-family:arial,sans-serif;
+    color:#FFFFFF;
     margin:20px
 }
 
@@ -69,5 +72,55 @@ a:active {
   cursor: pointer;
   user-select: none;
 }
+.h1_ad{
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
 
+.line{
+  border-bottom: 1px solid #ebebeb;
+}
 
+.h2_ad{
+  font-size:16px;
+  font-family:arial,sans-serif;
+  color:#333333
+}
+
+.div_ad{
+  margin:50px;
+}
+.row-input{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin:20px;
+}
+
+.left{
+  width:200px;
+  
+}
+
+.right{
+  width:385px;
+}
+p_ad{
+  font-family:arial,sans-serif;
+  font-size:13px;
+  vertical-align:middle;
+  color:#222222
+}
+.btn_ad{
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+}
+.btn_div{
+  display:flex;
+  justify-content:flex-end;
+  width:585px;
+  margin-top: 30px;
+}
